@@ -1,6 +1,4 @@
 /* global QUnit,JSZip,JSZipTestUtils */
-'use strict';
-
 QUnit.module("version");
 
 QUnit.test("JSZip.version is correct", function(assert){

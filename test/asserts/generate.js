@@ -1,6 +1,4 @@
 /* global QUnit,JSZip,JSZipTestUtils */
-'use strict';
-
 QUnit.module("generate");
 
 function testGenerateFor(testCases, fn) {

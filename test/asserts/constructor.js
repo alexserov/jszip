@@ -1,6 +1,4 @@
 /* global QUnit,JSZip,JSZipTestUtils */
-'use strict';
-
 QUnit.module("constructor");
 
 QUnit.test("JSZip exists", function(assert){

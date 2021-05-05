@@ -1,6 +1,4 @@
 /* global QUnit,JSZip,JSZipTestUtils */
-'use strict';
-
 (function (global) {
     // Expose assert object globally
     global.assert = QUnit.assert;

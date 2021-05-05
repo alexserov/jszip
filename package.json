@@ -1,9 +1,11 @@
 {
   "name": "jszip",
   "version": "3.6.0",
+  "type": "module",
   "author": "Stuart Knightley <stuart@stuartk.com>",
   "description": "Create, read and edit .zip files with JavaScript http://stuartk.com/jszip",
   "scripts": {
+    "build": "webpack -d --watch",
     "test": "npm run test-node && npm run test-browser",
     "test-node": "qunit --require ./test/helpers/test-utils.js --require ./test/helpers/node-test-utils.js test/asserts/",
     "test-browser": "grunt build && grunt test",
@@ -51,7 +53,9 @@
     "jszip-utils": "~0.0.2",
     "package-json-versionify": "1.0.2",
     "qunit": "~2.9.2",
-    "tmp": "0.0.28"
+    "tmp": "0.0.28",
+    "webpack": "^5.36.2",
+    "webpack-cli": "^4.6.0"
   },
   "dependencies": {
     "lie": "~3.3.0",

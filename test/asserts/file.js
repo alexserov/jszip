@@ -1,6 +1,4 @@
 /* global QUnit,JSZip,JSZipTestUtils,Promise */
-'use strict';
-
 QUnit.module("file", function () {
 
     function str2blob (str) {

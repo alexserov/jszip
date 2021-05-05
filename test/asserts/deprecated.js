@@ -1,6 +1,4 @@
 /* global QUnit,JSZip,JSZipTestUtils */
-'use strict';
-
 QUnit.module("deprecated");
 
 QUnit.test("Removed load method throws an exception", function(assert) {

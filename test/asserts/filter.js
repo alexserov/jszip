@@ -1,6 +1,4 @@
 /* global QUnit,JSZip,JSZipTestUtils */
-'use strict';
-
 QUnit.module("filter");
 
 QUnit.test("Filtering a zip", function(assert) {

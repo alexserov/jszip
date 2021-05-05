@@ -1,6 +1,4 @@
 /* global QUnit,JSZip,JSZipTestUtils */
-'use strict';
-
 QUnit.module("unicode");
 
 // zip -X -0 utf8.zip amount.txt

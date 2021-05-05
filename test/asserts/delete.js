@@ -1,6 +1,4 @@
 /* global QUnit,JSZip,JSZipTestUtils */
-'use strict';
-
 QUnit.module("delete");
 
 JSZipTestUtils.testZipFile("Delete file", "ref/text.zip", function(assert, expected) {

@@ -1,6 +1,4 @@
 /* global QUnit,JSZip,JSZipTestUtils */
-'use strict';
-
 QUnit.module("forEach");
 
 QUnit.test("forEach works on /", function (assert) {
